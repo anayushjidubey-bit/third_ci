@@ -1,8 +1,8 @@
 from src.operation import square,cube
 
-def t_s():
+def test_square():
     assert square(2) == 4
 
-def t_c():
+def test_cube():
     assert cube(2) == 8
-    
+
