@@ -1,0 +1,14 @@
+create a github repository and clone it into local
+make a requirements.txt and add pandas,pytest etc.
+make a source folder src and create two pythonfile "__init__.py" and "operation_file.py"
+    1."__init__.py" is empty.
+    2."operation_file.py" is modular coding or code of functions work as import.
+make another test folder and create two pythonfile "__init__.py" and "test_operation.py"
+    1."__init__.py" is empty.
+    2."test_operation.py" is modular coding or code of functions work as testing(it contain all main code). 
+download githubaction extension ..(for first time)
+push your file to github
+create a folder .github/workflows.cicd_pipline.yml
+goto action section then python app configure ,select yml file and paste it into .github/workflows.cicd_pipline.yml
+do modification (if required) and save file
+push it to github
